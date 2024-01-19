@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,300;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+
+.project {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 3px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.project .slider-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.slider-content {
+    overflow: hidden;
+    border-radius: 25px;
+    margin: 0 40px;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: #fff;
+    color: black;
+}
+
+.project .image-content,
+.project .card-content {
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project .image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+
+.project .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4aef41;
+    border-radius: 25px 25px 0px 25px;
+}
+
+.project .overlay::before,
+.project .overlay::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    width: 40px;
+    height: 40px;
+    background-color: #4aef41;
+}
+
+.project .overlay::after {
+    border-radius: 0 25px 0 0;
+    background-color: #fff;
+}
+
+.project .card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.project .card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4aef41;
+}
+
+.project .name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.project .description {
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+
+.project .button {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: rgb(38, 128, 38);
+    color: white;
+    margin: 14px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.project .button:hover {
+    background-color: #f75555;
+    transition: color 0,3s ease;
+}
+
+
+

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Discord Nitro",
+        "price": 250,
+        "image": "../src/products/nitro.png"
+    },
+    {
+        "id": 2,
+        "name": "Infinix Smart 8 3GB + 64GB, 90hz Punch-Hole Display, 5000 mAh Battery",
+        "price": "3.299",
+        "image": "../src/products/infinix.jpg"
+    },
+    {
+        "id": 3,
+        "name": "TWS Bluetooth Earbuds",
+        "price": 799,
+        "image": "../src/products/tws-earbuds.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Canva Pro",
+        "price": "830.18",
+        "image": "../src/products/canva-pro.jpg"
+    },
+    {
+        "id": 5,
+        "name": "YouTube Premium",
+        "price": 195,
+        "image": "../src/products/yt-premuim.jpg"
+    }
+]
